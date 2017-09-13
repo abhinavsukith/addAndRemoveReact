@@ -1,0 +1,59 @@
+body{
+  color: #70579D;
+  background-color: rgba(0, 0, 0, 1.0);
+}
+.repeater{
+  float:left;
+  margin:5px;
+  /*border:1px solid black;*/
+  position:relative;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  position:absolute;
+  bottom:25px;
+  left: 25%;
+  /*margin: 0 auto;*/
+  color: white;
+  opacity:0.6;
+}
+.repeater button {
+  visibility: hidden;
+}
+.repeater:hover button {
+  visibility: visible;
+}
+
+.repeater:hover {
+  border-color: #f3eb04;
+}
+
+
+h1{
+border:1px solid black;
+text-align:center;
+background-color: #d4dde4;
+}
+
+h6{
+  text-align:center;
+
+}
+
+#clear{
+clear: left;
+
+}
+span{
+  background-color: rgba(0,0,0,1.0);
+  float: left;
+  border: 1px solid #f3eb04;
+  margin: 2px;
+  color: green;
+  font-size: 25px;
+  bottom: 0;
+}
